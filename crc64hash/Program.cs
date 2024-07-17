@@ -1,9 +1,4 @@
-﻿using System;
-using System.IO;
-using System.Collections.Generic;
-using System.Linq;
-
-class Program
+﻿class Program
 {
     static Dictionary<string, ulong> initialCRC64s = new Dictionary<string, ulong>();
     static string baseDirectory = @"C:\2024\g\32\StandAloneComplexGen1\memory"; // Change this to your code directory path
